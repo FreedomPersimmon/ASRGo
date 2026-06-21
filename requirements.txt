@@ -1,0 +1,18 @@
+# ====== 核心框架 ======
+torch>=2.0.0
+torchaudio>=2.0.0
+soundfile>=0.12.0
+
+# ====== FunASR 引擎（通义实验室） ======
+funasr>=1.0.0
+modelscope>=1.0.0
+
+# ====== FireRed 引擎（小红书） ======
+transformers>=4.51.0
+sentencepiece>=0.1.99
+kaldiio>=2.18.0
+kaldi_native_fbank>=1.15
+cn2an>=0.5.23
+numpy>=1.26.0
+textgrid
+peft>=0.13.2
